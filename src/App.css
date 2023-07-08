@@ -1,0 +1,82 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+  .ChatS{
+    position: relative;
+    /* height: 88vh; */
+    /* width: 70vh; */
+     /* margin-left: 10vh;
+    margin-top: 10vh;
+    margin-left: 90%;
+    margin-bottom: 0; */
+    /* justify-content: center;
+    align-items: center; */
+    /* min-height: 100vh; */
+    background-color: #282c34;
+    overflow-y: auto;
+    max-width: 900px;
+    
+  justify-content: center;
+  min-height: 80vh;
+  min-width: 80vh;
+    padding: 10px;
+    height: 88vh;
+    margin: 6vh 0 6vh;
+    margin-bottom: 0;
+    overflow-y: auto;
+    /* margin-top: 20%;
+    margin-bottom: 10vh; */
+  }
+  ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+
+    
+  }
+  navbar{
+  /* background-color: #181717; */
+  height: 10vh;
+  min-height: 50px;
+  /* color: white; */
+  position: fixed;
+  width: 100%;
+  max-width: 728px;
+  top: 0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  z-index: 99;
+  padding: 10px;
+  box-sizing: border-box;
+  }
+
+  li{
+    float: left;
+  }
+  li a{
+    display: block;
+    padding: 14px 16px;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    text-decoration: none;
+  }
+  .right{
+    float: right;
+  }
+  li a:hover:not(.active){
+    background-color: rgb(118, 152, 153);
+  }
+  li a.active{
+    color: #ffffff;
+    background-color: aqua;
+  }
