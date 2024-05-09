@@ -4,18 +4,14 @@
   align-items: center;
   /* height: 100vh; */
 }
+
   .ChatS{
-    position: relative;
-    /* height: 88vh; */
-    /* width: 70vh; */
-     /* margin-left: 10vh;
-    margin-top: 10vh;
-    margin-left: 90%;
-    margin-bottom: 0; */
-    /* justify-content: center;
-    align-items: center; */
-    /* min-height: 100vh; */
-    background-color: #282c34;
+    /* position: relative; */
+    position: fixed;
+    left: 30%;
+    top: 2%;
+
+    background-color: #000000;
     overflow-y: auto;
     max-width: 900px;
     
@@ -66,7 +62,7 @@
   li a{
     display: block;
     padding: 14px 16px;
-    color: rgb(231, 231, 231);
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
   }
@@ -74,7 +70,8 @@
     float: right;
   }
   li a:hover:not(.active){
-    background-color: rgb(118, 152, 153);
+    background-color: rgb(26, 153, 162);
+    color: #ffffff;
   }
   li a.active{
     color: #ffffff;

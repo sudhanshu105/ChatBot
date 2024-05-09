@@ -4,7 +4,7 @@ import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import {MainContainer, Message, ChatContainer, MessageInput, MessageList, TypingIndicator} from '@chatscope/chat-ui-kit-react';
 
-const API_KEY="API_KEY here";
+const API_KEY="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";
 
 function App() {
   const[typing,setTyping]=useState(false)
@@ -84,6 +84,7 @@ function App() {
         </ul>
       </div> */}
       <Navbar />
+      
         <div className='ChatS'>
         <MainContainer>
           <ChatContainer>
@@ -99,6 +100,7 @@ function App() {
           </ChatContainer>
         </MainContainer>
         </div>
+    
       </div>
   )
 }
